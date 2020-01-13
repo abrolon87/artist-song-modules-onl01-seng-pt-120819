@@ -8,6 +8,7 @@ class Song
   #extend
   include Memorable::InstanceMethods
   #extend
+  
   @@songs = []
 
   def initialize
