@@ -1,6 +1,6 @@
 require 'pry'
 require_relative '../lib/concerns/memorable'
-
+require_relative '../lib/concerns/findable'
 class Artist
   attr_accessor :name
   attr_reader :songs
